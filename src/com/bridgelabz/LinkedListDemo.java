@@ -79,9 +79,9 @@ class LinkedList {
     }
 
     //Method for Peak Pop in Stack
-    public void peakPop() {
+    public void peakPop(String struct) {
         if(head == null) {
-            System.out.println("Stack is Empty.");
+            System.out.println(struct+" is Empty.");
         } else {
             while(head != null) {
                 System.out.println("Deleted : "+head.data);

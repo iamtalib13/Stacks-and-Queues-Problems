@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class StackQueue {
     public static void main(String[] args) {
         //Welcome Message for User
-        System.out.println("Welcome to Stacks and Queues Problems using Linked List .");
-
+        System.out.println("Welcome to Stacks and Queues Problems using Linked List ");
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,7 +23,7 @@ public class StackQueue {
                     linkedList.insertFirst(sc.nextInt());
                     break;
                 case 2:
-                    linkedList.peakPop();
+                    linkedList.peakPop("Stack");
                     break;
                 case 3:
                     linkedList.showLinkedList();
@@ -34,6 +33,7 @@ public class StackQueue {
                     linkedList.insertLast(sc.nextInt());
                     break;
                 case 5:
+                    linkedList.peakPop("Queue");
                     break;
                 case 6:
                     linkedList.showLinkedList();
