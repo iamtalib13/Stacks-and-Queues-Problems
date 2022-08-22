@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class StackQueue {
     public static void main(String[] args) {
         //Welcome Message for User
-        System.out.println("Welcome to Stacks and Queues Problems using Linked List developed be Tahir Mansuri.");
+        System.out.println("Welcome to Stacks and Queues Problems using Linked List .");
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,6 +24,7 @@ public class StackQueue {
                     linkedList.insertFirst(dataFirst);
                     break;
                 case 2:
+                    linkedList.peakPop();
                     break;
                 case 3:
                     linkedList.showLinkedList();

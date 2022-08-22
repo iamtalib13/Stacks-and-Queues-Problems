@@ -78,6 +78,19 @@ class LinkedList {
         }
     }
 
+    //Method for Peak Pop in Stack
+    public void peakPop() {
+        if(head == null) {
+            System.out.println("Stack is Empty.");
+        } else {
+            while(head != null) {
+                System.out.println("Deleted : "+head.data);
+                head = head.next;
+            }
+            head = null;
+        }
+    }
+
     //Method to Delete Last Node from Linked List
     public void popLast() {
         if(head == null) {
